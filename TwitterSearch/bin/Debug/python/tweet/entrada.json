@@ -1,0 +1,17 @@
+[{
+"use_limit":false,
+"max_tweets":0,
+"query_search":"CVE",
+"by_username":"",
+"use_date":false,
+"date_since":"2019/10/5",
+"date_until":"2019/10/5",
+"top_tweets":false,
+"use_place":false,
+"place":"",
+"area":"",
+"use_geoLocales":false,
+"geo":"",
+"arquivo_saida":".csv;.json;.sql;.xml;",
+"log":false
+}]

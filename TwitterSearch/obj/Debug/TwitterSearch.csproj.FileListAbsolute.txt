@@ -1,0 +1,10 @@
+C:\Users\rodri\OneDrive\Área de Trabalho\TwitterSearch\TwitterSearch\bin\Debug\TwitterSearch.exe.config
+C:\Users\rodri\OneDrive\Área de Trabalho\TwitterSearch\TwitterSearch\bin\Debug\TwitterSearch.exe
+C:\Users\rodri\OneDrive\Área de Trabalho\TwitterSearch\TwitterSearch\bin\Debug\TwitterSearch.pdb
+C:\Users\rodri\OneDrive\Área de Trabalho\TwitterSearch\TwitterSearch\obj\Debug\TwitterSearch.FO_Principal.resources
+C:\Users\rodri\OneDrive\Área de Trabalho\TwitterSearch\TwitterSearch\obj\Debug\TwitterSearch.Properties.Resources.resources
+C:\Users\rodri\OneDrive\Área de Trabalho\TwitterSearch\TwitterSearch\obj\Debug\TwitterSearch.csproj.GenerateResource.cache
+C:\Users\rodri\OneDrive\Área de Trabalho\TwitterSearch\TwitterSearch\obj\Debug\TwitterSearch.csproj.CoreCompileInputs.cache
+C:\Users\rodri\OneDrive\Área de Trabalho\TwitterSearch\TwitterSearch\obj\Debug\TwitterSearch.exe
+C:\Users\rodri\OneDrive\Área de Trabalho\TwitterSearch\TwitterSearch\obj\Debug\TwitterSearch.pdb
+C:\Users\rodri\OneDrive\Área de Trabalho\TwitterSearch\TwitterSearch\obj\Debug\TwitterSearch.csprojAssemblyReference.cache
