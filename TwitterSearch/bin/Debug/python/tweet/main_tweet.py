@@ -32,24 +32,25 @@ class Tweets:
         if fil.use_place :
             x = fil.use_place
             tweetCriteria.setNear(x)
-
-        if fil.geo != "" :
-            x = fil.geo
-            tweetCriteria.setNear(x)
-
-        if fil.area != "":
             x = fil.area
             tweetCriteria.setWithin(x)
+
+        if fil.use_geoLocales == True :
+            x = fil.geo
+            tweetCriteria.setNear(x)
+            
 
         obj = []
         conseguiu = False
         imp = []
-
-        while conseguiu == False:
+        consegue = 5
+        while conseguiu == False and consegue > 0:
             try:
                 imp = got.manager.TweetManager.getTweets(tweetCriteria)
                 conseguiu = True
+                consegue = 5
             except:
+                consegue = consegue -1
                 conseguiu = False
         
         for tweet in imp:

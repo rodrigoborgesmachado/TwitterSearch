@@ -37,6 +37,7 @@ arquivo_saida = "-t .json"
 log = ""
 
 for fill in reader:
+    filt.use_limit= fill["use_limit"]
     filt.max_tweets = fill["max_tweets"]
     filt.query_search = fill["query_search"]
     filt.by_username = fill["by_username"]
@@ -74,7 +75,7 @@ if len(results) > 0 :
     for js in imp1:
         for st in results: 
             filt.use_date = False
-            filt.use_limit = False
+            filt.use_limit = True
             filt.use_place = False
             filt.use_geoLocales = False
             filt.query_search = ""
@@ -107,6 +108,9 @@ imp1+=imp
 arq._writeOnFile(json.dumps(imp1))
 fim_requisicao = datetime.now()
 saida = 0
+print ("")
+print ("Fim da requisição: ")
+print (fim_requisicao)
 
 try:
     saida = subprocess.check_call( current + "\\API_Conector_Json.exe" + " -i \"" + arq.director  + "\" " + arquivo_saida + " " + log)
@@ -116,9 +120,6 @@ except Exception:
 fim = datetime.now()
 print ("Saida")
 print (saida)
-print ("")
-print ("Fim da requisição: ")
-print (fim_requisicao)
 print ("")
 print ("Fim para salvar arquivo: ")
 print (fim)
